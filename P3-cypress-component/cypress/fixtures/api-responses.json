@@ -1,0 +1,10 @@
+{
+  "page": 1,
+  "per_page": 6,
+  "total": 12,
+  "data": [
+    { "id": 1, "email": "tanvir@qa.com",  "first_name": "Tanvir", "last_name": "Hossain" },
+    { "id": 2, "email": "alice@qa.com",   "first_name": "Alice",  "last_name": "Rahman"  },
+    { "id": 3, "email": "bob@qa.com",     "first_name": "Bob",    "last_name": "Islam"   }
+  ]
+}

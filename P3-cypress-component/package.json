@@ -1,0 +1,21 @@
+{
+  "name": "cypress-component-testing",
+  "version": "1.0.0",
+  "description": "Cypress 13 E2E and Component test suite",
+  "author": "Tanvir Hossain <iamtanvir.cse@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "cypress run",
+    "test:e2e": "cypress run --spec 'cypress/e2e/**'",
+    "test:component": "cypress run --component",
+    "test:ci": "cypress run --headless --browser chrome",
+    "open": "cypress open"
+  },
+  "devDependencies": {
+    "cypress": "^13.6.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "@cypress/react": "^8.0.0",
+    "@cypress/webpack-dev-server": "^3.8.0"
+  }
+}
